@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, View, Text, Image } from 'react-native';
-import logoImagem from '../imagens/logo.png'
+//import logoImagem from '../imagens/logo.png'
 
 function CUBE() {
     return (
@@ -8,7 +8,7 @@ function CUBE() {
             <View style={styles.borda}>
                 <Text style={styles.titulo}>CUBE Old Pochmann</Text>
                 <Text style={styles.textos}>Atráves de um site, ajudaremos você á aprender como resolver o cubo mágico 3X3X3 de olhos vendados, utilizando o método Old Pochmann.</Text>
-                <Text style={styles.textos}>Mostrando o processo de aprendizagem, exemplos e dicas de como aprender. O site além de tutorial escrito e fórmulas, também irá apresentar um relato sobre como foi aprender, o que foi mais difícil e quais partes foram as mais fáceis.</Text>
+                <Text style={styles.textos}>Mostrando o processo de aprendizagem, exemplos e dicas de como aprender. O site além de tutorial escrito e fórmulas, também irá apresentar um relato sobre como foi aprender, o que foi mais difícil e quais partes foram as mais fáceis. Assim você vera que não é imposível assim como parece. </Text>
             </View>
         </View>
     )

@@ -8,7 +8,7 @@ function CUBE() {
             <View style={styles.borda}>
                 <Text style={styles.titulo}>CUBE Old Pochmann</Text>
                 <Text style={styles.textos}>Atráves de um site, ajudaremos você á aprender como resolver o cubo mágico 3X3X3 de olhos vendados, utilizando o método Old Pochmann.</Text>
-                <Text style={styles.textos}>Mostrando o processo de aprendizagem, exemplos e dicas de como aprender. O site além de tutorial escrito e fórmulas, também irá apresentar um relato sobre como foi aprender, o que foi mais difícil e quais partes foram as mais fáceis. Assim você vera que não é imposível assim como parece. </Text>
+                <Text style={styles.textos}>Mostrando o processo de aprendizagem, exemplos e dicas de como aprender. O site além de tutorial escrito e fórmulas, também irá apresentar um relato sobre como foi aprender, o que foi mais difícil e quais partes foram as mais fáceis. Assim você irá ver que não é imposível assim como parece. </Text>
             </View>
         </View>
     )
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     textos: {
         fontsize: 15,
         color: '#000000',
-        textAlign: "center",
+        textAlign: "justify",
         padding: 10,
         alignItems: "center",
     },

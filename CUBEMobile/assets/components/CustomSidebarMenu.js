@@ -3,8 +3,6 @@ import { SafeAreaView, View, StyleSheet, Image, Text, Linking} from 'react-nativ
 import { DrawerContentScrollView, DrawerItemList, DrawerItem } from '@react-navigation/drawer';
 
 const CustomSidebarMenu = (props) => {
-
-    const proileImage = 'react_logo.png';
   
     return (
       <SafeAreaView style={{flex: 1}}>
